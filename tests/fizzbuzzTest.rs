@@ -9,5 +9,5 @@ fn can_test() {
 
 #[test]
 fn _1is1() {
-	assert_eq!("1", fb::fizzbuzz(1));
+	assert_eq!("1", fizzbuzz::fizzbuzz(1));
 }
