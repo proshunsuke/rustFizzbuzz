@@ -1,3 +1,3 @@
-fn main() {
-    println!("Hello, world!");
+pub fn fizzbuzz(n: i32) -> String {
+
 }
