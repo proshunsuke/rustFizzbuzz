@@ -11,3 +11,8 @@ fn can_test() {
 fn _1is1() {
 	assert_eq!("1", fizzbuzz::fizzbuzz(1));
 }
+
+#[test]
+fn _2is2() {
+	assert_eq!("2", fizzbuzz::fizzbuzz(2));
+}
