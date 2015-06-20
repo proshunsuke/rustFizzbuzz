@@ -22,3 +22,8 @@ fn _3isfizz() {
 	assert_eq!("fizz", fizzbuzz::fizzbuzz(3));
 }
 
+#[test]
+fn _5isbuzz() {
+	assert_eq!("buzz", fizzbuzz::fizzbuzz(5));
+}
+
